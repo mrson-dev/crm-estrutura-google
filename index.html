@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliJuris CRM Jurídico</title>
+    <style>
+      :root, [data-theme="sky"] {
+        --color-primary: 2 132 199; /* sky-600 */
+        --color-accent: 14 165 233; /* sky-500 */
+      }
+      [data-theme="indigo"] {
+        --color-primary: 79 70 229;
+        --color-accent: 99 102 241;
+      }
+      [data-theme="rose"] {
+        --color-primary: 225 29 72;
+        --color-accent: 244 63 94;
+      }
+      [data-theme="teal"] {
+        --color-primary: 13 148 136;
+        --color-accent: 20 184 166;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.394",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0",
+    "@tanstack/react-query": "https://aistudiocdn.com/@tanstack/react-query@^5.90.7",
+    "react-hook-form": "https://aistudiocdn.com/react-hook-form@^7.66.0",
+    "zod": "https://aistudiocdn.com/zod@^4.1.12",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "axios": "https://aistudiocdn.com/axios@^1.13.2",
+    "@hookform/resolvers/": "https://aistudiocdn.com/@hookform/resolvers@^5.2.2/"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-100 dark:bg-slate-950 text-slate-800 dark:text-slate-200 transition-colors duration-300" data-theme="sky">
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
